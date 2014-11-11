@@ -1,0 +1,31 @@
+{
+  "spec_version": 1,
+  "name": "ASET Props",
+  "identifier": "ASETProps",
+  "author": "alexustas",
+  "abstract": "Advanced Props for IVAs",
+  "license": "CC-BY-NC-SA-3.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/54925",
+    "comment": "There is no actual homepage for ASET_Props, but ALCOR's thread links to it"
+  },
+  "depends": [
+    {
+      "name": "RasterPropMonitor-Core",
+      "version_min" : "v0.18"
+    },
+    {
+      "name": "ModuleManager"
+    }    
+  ],
+  "install": [
+    {
+      "file": "ASET_Props",
+      "install_to": "GameData"
+    }
+  ],
+  "version": "v1.0.2",
+  "download": "https://www.dropbox.com/s/e40b9vniue0wa91/ASET_Props_1.0.2.zip?dl=1",
+  "ksp_version_min": "0.24.2"
+}

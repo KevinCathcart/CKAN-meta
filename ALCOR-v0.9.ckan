@@ -1,0 +1,26 @@
+{
+  "spec_version": 1,
+  "name": "ALCOR Capsule",
+  "identifier": "ALCOR",
+  "author": "alexustas",
+  "abstract": "Advanced landing capsule (with optional extremely interactive IVA)",
+  "license": "CC-BY-NC-SA-3.0",
+  "release_status": "stable",
+  "resources": {
+    "homepage": "http://forum.kerbalspaceprogram.com/threads/54925"
+  },
+  "recommends": [
+    {
+      "name": "ALCOR-IVA"
+    }
+  ],
+  "install": [
+    {
+      "file": "Gamedata/ASET",
+      "install_to": "GameData"
+    }
+  ],
+  "version": "v0.9",
+  "download": "https://www.dropbox.com/s/qob922ayjxvsug5/ALCOR_Capsule_0.9.zip?dl=1",
+  "ksp_version_min": "0.24.2"
+}
